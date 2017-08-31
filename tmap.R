@@ -21,10 +21,10 @@ save_tmap(quint,"tmap Highland SIMD Quintile.png")
 quint # plot
 
 ttm() #switch between static and interactive - this will use interactive
-last_map()
+quint # or use last_map()
 # in R Studio you will find leaflet map in your Viewer tab
 
-
+ttm() # return to plotting
 
 
 small_mult<- tm_shape(highland) +
